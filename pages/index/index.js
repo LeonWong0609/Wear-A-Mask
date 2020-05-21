@@ -8,7 +8,7 @@ Page({
   data: {
     bgPic: null,
     picChoosed: false,
-    imgList: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10],
+    imgList: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
     currentHatId: 1,
     hatCenterX: 150,
     hatCenterY: 150,
@@ -192,7 +192,7 @@ Page({
       ? app.globalData.successPic
       : "https://image.idealclover.cn/projects/Wear-A-Mask/avatar.png";
     return {
-      title: "一起来为头像带上口罩吧！",
+      title: "快来获取 UCASSers 2020 专属毕业头像吧",
       imageUrl: successPic,
       path: "/pages/index/index",
       success: function(res) {}

@@ -75,7 +75,7 @@ Page({
       ? app.globalData.successPic
       : "https://image.idealclover.cn/projects/Wear-A-Mask/avatar.png";
     return {
-      title: "一起来为头像带上口罩吧！",
+      title: "快来获取 UCASSers 2020 专属毕业头像吧",
       imageUrl: successPic,
       path: "/pages/index/index",
       success: function(res) {}

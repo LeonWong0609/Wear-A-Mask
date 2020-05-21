@@ -2,7 +2,7 @@
 const app = getApp();
 
 // 在页面中定义激励视频广告
-let videoAd = null
+// let videoAd = null
 
 Page({
   /**
@@ -73,7 +73,7 @@ Page({
         //   x: 30,
         //   y: 113,
         //   baseLine: "top",
-        //   text: "一起戴上口罩吧！",
+        //   text: "",
         //   fontSize: 38,
         //   color: "#080808"
         // },
@@ -100,7 +100,7 @@ Page({
           x: 360,
           y: 1158,
           baseLine: "top",
-          text: "一起戴上口罩",
+          text: "获取 UCASSers 2020 专属毕业头像",
           fontSize: 28,
           color: "#929292"
         }
@@ -170,7 +170,7 @@ Page({
       app.globalData.successPic :
       "https://image.idealclover.cn/projects/Wear-A-Mask/avatar.png";
     return {
-      title: "一起来为头像带上口罩吧！",
+      title: "快来获取 UCASSers 2020 专属毕业头像吧",
       imageUrl: successPic,
       path: "/pages/index/index",
       success: function(res) {}
